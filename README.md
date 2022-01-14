@@ -54,8 +54,12 @@ This guide was very helpful:
 https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/arduino-test
 
 
-For an enclosure Im currently using something like this: 
-https://www.amazon.com/Sunnyglade-Dustproof-Waterproof-Universal-Electrical/dp/B07PZT8FWD/ref=sr_1_4_sspa?crid=1X2KWC9X2WDR&keywords=waterproof%2Benclosure&qid=1642173280&sprefix=waterproof%2520enclosure%2Caps%2C47&sr=8-4-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySEtUMjdaTE1DNklHJmVuY3J5cHRlZElkPUEwNzY0MjMyT0dLT0IwNjBZQ01PJmVuY3J5cHRlZEFkSWQ9QTA4NjY2NzExN0NJTVpQVjdMWTFOJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1
+For an enclosure Im currently using something like this:  
+
+
+![Screen Shot 2022-01-14 at 10 20 31 AM](https://user-images.githubusercontent.com/57408800/149539663-9d7c9d53-1c96-4ed1-9775-ad436c2ec18a.png)
+
+
 
 However a 3d print file will be available soon after prototyping/testing.  Its reccomended to use a narrow rectangle mounted vertically with vent holes on the top and bottom to create airflow and allow proper venting/readings.  Always place the MCU on the top of the enclosure and the BME towards the bottom to avoid readings that include the heat of the MCU.  (It is worth noting that the MCU is on for a VERY short amount of time and likely wouldn't affect the temp reading given the current loop configuration.)
 
