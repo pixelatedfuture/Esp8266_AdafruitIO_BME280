@@ -1,4 +1,4 @@
-# NodeMCU_AdafruitIO_BME280
+# Esp8266_AdafruitIO_BME280
 
 //Thank you Adafruit, r/esp8266, r/esp32, and the open source communities that have all contributed code and knowledge to make projects like this possible. 
 
