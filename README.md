@@ -28,6 +28,8 @@ Gnd to Gnd
 D2 to SDA  
 D1 to SCLA  
 
+** I forgot to mention you need to connect RST to D0 AFTER flashing the chip.  This is how the deepsleep reset happens.
+
 
 
 
